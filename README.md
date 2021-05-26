@@ -1,16 +1,15 @@
 # Neural Network
-In this repository i have implemented the Neural Network using Numpy, Numba package From scrach.
+In this repository, I have implemented the Neural Network using Numpy, Numba packages.
 
 ## Using Nerual Network
 
-For using implemented Neural Network your input shape must be `(number_of_features, number_of_inputs)` and then make your desired layer with specific activation function and then use SGD or BGD Network for traning your data.
+For using implemented Neural Network your input shape must be `(number_of_features, number_of_inputs)` and then make your desired layer with a specific activation function and then use SGD or BGD Network for training your data.
 
 Supported Activation Functions(activation package):
 - sigmoid 
 - linear 
 - tanh 
 - relu
-
 
 Supported Metrics Functions(metrics package):
 - mean squared error(mse)
@@ -42,4 +41,7 @@ training on humps function:
 - output after training
     ![Training](./screen_shots/out.png)
 
+## todo list
+- implementing regularization (l1(lasso), l2(ridge), dropout)
+- implementing more loss functions such as binary cross entropy, ... .
 
