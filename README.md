@@ -42,6 +42,6 @@ training on humps function:
     ![Training](./screen_shots/out.png)
 
 ## todo list
-- implementing regularization (l1(lasso), l2(ridge), dropout)
+- implementing regularization (l1(ridge), l2(lasso), dropout)
 - implementing more loss functions such as binary cross entropy, ... .
 
