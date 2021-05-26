@@ -25,7 +25,8 @@ Supported Preprocessing Functions:
 - Standard Scalar
 
 ## start
-In `main.py` file i have made 500 dummy data for predicting humps function.
+In `main.py` file i have made 500 dummy data for predicting [humps](https://rdrr.io/rforge/pracma/man/humps.html)
+ function.
 
 ```bash
     python3 -m venv env
